@@ -56,7 +56,7 @@ public class MainTrain {
 			System.out.println("wrong result for CacheManager last queries (-10)");
 				
 	}
-	/*
+
 	public static void testBloomFilter() {
 		BloomFilter bf =new BloomFilter(256,"MD5","SHA1");
 		String[] words = "the quick brown fox jumps over the lazy dog".split(" ");
@@ -80,7 +80,7 @@ public class MainTrain {
 		if(found)
 			System.out.println("problem finding words that should not exist in the bloom filter (-15)");		
 	}
-	
+	/*
 	public static void testIOSearch() throws Exception{
 		String words1 = "the quick brown fox \n jumps over the lazy dog";		
 		String words2 = "A Bloom filter is a space efficient probabilistic data structure, \n conceived by Burton Howard Bloom in 1970";
@@ -109,8 +109,9 @@ public class MainTrain {
 		testLRU();
 		testLFU();
 		testCacheManager();
-		/*
+
 		testBloomFilter();
+		/*
 		try {
 			testIOSearch();
 		} catch(Exception e) {

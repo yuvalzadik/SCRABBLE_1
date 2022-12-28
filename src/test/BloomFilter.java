@@ -17,27 +17,31 @@ public class BloomFilter {
     }
 
     // This function get a word and hash method and return according them the location we need to set on the BitSet b
-    private int hash_value(String s, String word) throws NoSuchAlgorithmException {
+    private int hash_value(String s, String word) {
         // initialize hash function according its name
-        MessageDigest md=MessageDigest.getInstance(s);
+        MessageDigest md;
+        try {
+            md = MessageDigest.getInstance(s);
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
         // return an array with bytes of the word input
-        byte[] bts=md.digest(word.getBytes());
+        byte[] bts = md.digest(word.getBytes());
         //From given a set of bytes creates a number
         BigInteger bi = new BigInteger(bts);
         // this method convert the bi number to int positive number
         int number = Math.abs(bi.intValue());
         // get single index according the hash function and the bitset size
-        int value = number%(b.size());
-        return value;
+        return number % (b.size());
     }
-    public void add(String word) throws NoSuchAlgorithmException {
+    public void add(String word)  {
         for(String s: algs){
            int value = hash_value(s,word);
             // change the bitset on the value location from 0 to 1
             b.set(value);
         }
         }
-    public Boolean contains(String word) throws NoSuchAlgorithmException {
+    public Boolean contains(String word)  {
         for(String s: algs) {
             int value = hash_value(s, word);
             // Check if the bit at index value is set
@@ -59,7 +63,4 @@ public class BloomFilter {
         }
         return bits.toString();
     }
-
-
-
 }
