@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aa95ae7-92a7-4c9c-a8ff-df1b458d8d09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patam1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/BloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/CacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/CacheReplacementPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/IOSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/LFU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/LRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MainTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MainTrain_original.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/פרויקט משחק Book Scrabble - אבן דרך 2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/פרויקט משחק Book Scrabble אבן דרך 1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
+    <list default="true" id="3aa95ae7-92a7-4c9c-a8ff-df1b458d8d09" name="Changes" comment="FIRST UPLOAD">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BloomFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +43,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\patam1\patam1\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\patam1\patam1" />
+      <recent name="C:\patam1\patam1\SCRABBLE_1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MainTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -91,8 +76,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672223458173</updated>
-      <workItem from="1672223459566" duration="4763000" />
+      <workItem from="1672223459566" duration="12193000" />
     </task>
+    <task id="LOCAL-00001" summary="FIRST UPLOAD">
+      <created>1672230253741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672230253741</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,10 +96,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FIRST UPLOAD" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIRST UPLOAD" />
   </component>
 </project>
