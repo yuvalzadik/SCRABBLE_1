@@ -32,16 +32,4 @@ public class LFU implements CacheReplacementPolicy {
         LFUwords.remove(word_key_remove);
         return (word_key_remove);
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof LFU lfu)) return false;
-        return Objects.equals(LFUwords, lfu.LFUwords);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(LFUwords);
-    }
 }

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aa95ae7-92a7-4c9c-a8ff-df1b458d8d09" name="Changes" comment="bloom filter UPLOAD">
+    <list default="true" id="3aa95ae7-92a7-4c9c-a8ff-df1b458d8d09" name="Changes" comment="bloom filter fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/IOSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/IOSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/LFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LFU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LRU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MainTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672223458173</updated>
-      <workItem from="1672223459566" duration="12645000" />
+      <workItem from="1672223459566" duration="19659000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST UPLOAD">
       <created>1672230253741</created>
@@ -92,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672243523419</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bloom filter fix">
+      <created>1672244001170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672244001170</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FIRST UPLOAD" />
     <MESSAGE value="bloom filter UPLOAD" />
-    <option name="LAST_COMMIT_MESSAGE" value="bloom filter UPLOAD" />
+    <MESSAGE value="bloom filter fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bloom filter fix" />
   </component>
 </project>

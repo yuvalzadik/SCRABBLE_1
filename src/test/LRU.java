@@ -1,6 +1,4 @@
 package test;
-
-import java.util.Iterator;
 import java.util.LinkedHashSet;
 
 public class LRU implements CacheReplacementPolicy {
