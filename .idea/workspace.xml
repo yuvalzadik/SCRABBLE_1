@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa95ae7-92a7-4c9c-a8ff-df1b458d8d09" name="Changes" comment="bloom filter fix">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/BookScrabbleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/DictionaryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MainTrain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/פרויקט משחק Book Scrabble - אבן דרך 3.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/IOSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/IOSearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/LFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LFU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LRU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MainTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +40,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/patam1/patam1/src",
+    "last_opened_file_path": "C:/patam1/patam1/SCRABBLE_1/src/test",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\patam1\patam1\SCRABBLE_1\src\test" />
       <recent name="C:\patam1\patam1\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -52,8 +57,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="MainTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.MainTrain" />
+    <configuration name="MainTrain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MainTrain2" />
       <module name="patam1" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainTrain" />
+        <item itemvalue="Application.MainTrain2" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672223458173</updated>
       <workItem from="1672223459566" duration="19659000" />
+      <workItem from="1673619577180" duration="4667000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST UPLOAD">
       <created>1672230253741</created>
