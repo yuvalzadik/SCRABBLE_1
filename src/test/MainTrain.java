@@ -92,7 +92,7 @@ public class MainTrain {
 		
 		return txt;
 	}
-	/*
+
 	public static void testDM() {
 		String t1[]=writeFile("t1.txt");
 		String t2[]=writeFile("t2.txt");
@@ -135,7 +135,7 @@ public class MainTrain {
 			System.out.println("your code ran into an IOException (-10)");
 		}
 	}
-	
+	/*
 	public static void testBSCH() {
 		String s1[]=writeFile("s1.txt");
 		String s2[]=writeFile("s2.txt");
@@ -155,7 +155,7 @@ public class MainTrain {
 	*/
 	public static void main(String[] args) {
 		if(testServer()) {
-			//testDM();
+			testDM();
 			//testBSCH();
 			System.out.println("yuva");
 		}

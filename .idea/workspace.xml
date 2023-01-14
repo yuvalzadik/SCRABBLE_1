@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aa95ae7-92a7-4c9c-a8ff-df1b458d8d09" name="Changes" comment="bloom filter fix">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/BookScrabbleHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/DictionaryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MainTrain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/פרויקט משחק Book Scrabble - אבן דרך 3.pdf" afterDir="false" />
+    <list default="true" id="3aa95ae7-92a7-4c9c-a8ff-df1b458d8d09" name="Changes" comment="statrt part 3">
+      <change afterPath="$PROJECT_DIR$/src/old.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/DictionaryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DictionaryManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MainTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672223458173</updated>
       <workItem from="1672223459566" duration="19659000" />
-      <workItem from="1673619577180" duration="4667000" />
+      <workItem from="1673619577180" duration="13946000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST UPLOAD">
       <created>1672230253741</created>
@@ -108,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672244001170</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="statrt part 3">
+      <created>1673625431138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673625431138</updated>
+    </task>
+    <task id="LOCAL-00005" summary="statrt part 3">
+      <created>1673625467800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673625467800</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +150,7 @@
     <MESSAGE value="FIRST UPLOAD" />
     <MESSAGE value="bloom filter UPLOAD" />
     <MESSAGE value="bloom filter fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bloom filter fix" />
+    <MESSAGE value="statrt part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="statrt part 3" />
   </component>
 </project>

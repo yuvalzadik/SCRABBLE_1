@@ -1,0 +1,35 @@
+ public boolean query(String...args) {
+        boolean word_exist= false ;
+        String searchword = args[args.length -1];
+        Dictionary dict;
+        for (int i =0 ; i< args.length -1; i ++){
+            if (!(Books.containsKey(args[i]))){
+                dict = new Dictionary(args[i]);
+                Books.put(args[i], dict);
+            }
+            else {
+                dict = Books.get(args[i]);
+            }
+           if( dict.query(searchword))
+               word_exist = true;
+        }
+        return  word_exist ;
+    }
+
+    public boolean challenge (String...args) {
+        boolean word_exist= false ;
+        String searchword = args[args.length -1];
+        Dictionary dict;
+        for (int i =0 ; i< args.length -1; i ++){
+            if (!(Books.containsKey(args[i]))){
+                dict = new Dictionary(args[i]);
+                Books.put(args[i], dict);
+            }
+            else {
+                dict = Books.get(args[i]);
+            }
+            if( dict.challenge(searchword))
+                word_exist = true;
+        }
+        return  word_exist ;
+    }
