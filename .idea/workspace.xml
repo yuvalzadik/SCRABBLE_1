@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aa95ae7-92a7-4c9c-a8ff-df1b458d8d09" name="Changes" comment="statrt part 3">
-      <change afterPath="$PROJECT_DIR$/src/old.txt" afterDir="false" />
+    <list default="true" id="3aa95ae7-92a7-4c9c-a8ff-df1b458d8d09" name="Changes" comment="finish DictionaryManager">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BookScrabbleHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BookScrabbleHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/DictionaryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DictionaryManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MainTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,20 @@
       <recent name="C:\patam1\patam1\SCRABBLE_1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainTrain">
+    <configuration name="MainTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MainTrain" />
+      <module name="patam1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTrain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.MainTrain2" />
       <module name="patam1" />
@@ -67,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTrain" />
         <item itemvalue="Application.MainTrain2" />
       </list>
     </recent_temporary>
@@ -80,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672223458173</updated>
       <workItem from="1672223459566" duration="19659000" />
-      <workItem from="1673619577180" duration="13946000" />
+      <workItem from="1673619577180" duration="22213000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST UPLOAD">
       <created>1672230253741</created>
@@ -117,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673625467800</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finish DictionaryManager">
+      <created>1673698522948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673698522948</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +175,17 @@
     <MESSAGE value="bloom filter UPLOAD" />
     <MESSAGE value="bloom filter fix" />
     <MESSAGE value="statrt part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="statrt part 3" />
+    <MESSAGE value="finish DictionaryManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish DictionaryManager" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
